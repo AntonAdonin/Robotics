@@ -1,0 +1,2 @@
+(.ros2_venv) (base) antonadonin@MacBook-Air-Anton-2 ros2_jazzy % ros2 node list
+/AntonAdonin_turtle
