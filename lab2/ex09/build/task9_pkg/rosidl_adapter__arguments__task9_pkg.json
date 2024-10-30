@@ -1,0 +1,7 @@
+{
+  "package_name": "task9_pkg",
+  "non_idl_tuples": [
+    "/home/antonadonin/Robotics/lab2/ex09/task9_pkg:msg/FullNameMessage.msg",
+    "/home/antonadonin/Robotics/lab2/ex09/task9_pkg:srv/FullNameSumService.srv"
+  ]
+}

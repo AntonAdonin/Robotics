@@ -8,25 +8,28 @@ def generate_launch_description():
         Node(
             package='turtlesim',
             executable='turtlesim_node',
-            name='sim1'
+            namespace='turtlesim1',
+            name='sim'
         ),
         Node(
             package='turtlesim',
             executable='turtlesim_node',
-            name='sim2'
+            namespace='turtlesim2',
+            name='sim'
         ),
         Node(
             package='turtlesim',
             executable='turtlesim_node',
-            name='sim3'
+            namespace='turtlesim3',
+            name='sim'
         ),
         Node(
             package='turtlesim',
             executable='mimic',
             name='mimic1',
             remappings=[
-                ('/input/pose', '/turtle1/pose'),
-                ('/output/cmd_vel', '/turtle2/cmd_vel'),
+                ('/input/pose', '/turtlesim1/turtle1/pose'),
+                ('/output/cmd_vel', '/turtlesim2/turtle1/cmd_vel'),
             ]
         ),
         Node(
@@ -34,8 +37,8 @@ def generate_launch_description():
             executable='mimic',
             name='mimic2',
             remappings=[
-                ('/input/pose', '/turtle2/pose'),
-                ('/output/cmd_vel', '/turtle3/cmd_vel'),
+                ('/input/pose', '/turtlesim2/turtle1/pose'),
+                ('/output/cmd_vel', '/turtlesim3/turtle1/cmd_vel'),
             ]
         ),
     ])

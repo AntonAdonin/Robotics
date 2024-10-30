@@ -1,0 +1,38 @@
+[0.351s] Invoking command in '/home/antonadonin/Robotics/lab2/ex10/text_to_cmd_vel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/text_to_cmd_vel build --build-base /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/build install --record /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/install.log --single-version-externally-managed install_data
+[0.449s] running egg_info
+[0.449s] creating ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info
+[0.455s] writing ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/PKG-INFO
+[0.455s] writing dependency_links to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/dependency_links.txt
+[0.455s] writing entry points to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/entry_points.txt
+[0.455s] writing requirements to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/requires.txt
+[0.456s] writing top-level names to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/top_level.txt
+[0.456s] writing manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[0.468s] reading manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[0.468s] adding license file 'LICENSE'
+[0.469s] writing manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[0.469s] running build
+[0.469s] running build_py
+[0.470s] creating /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/build
+[0.470s] creating /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/build/lib
+[0.470s] creating /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[0.470s] copying text_to_cmd_vel/__init__.py -> /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[0.471s] copying text_to_cmd_vel/publisher_member_function.py -> /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[0.471s] running install
+[0.472s] running install_lib
+[0.478s] creating /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel
+[0.479s] copying /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/build/lib/text_to_cmd_vel/__init__.py -> /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel
+[0.479s] copying /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/build/lib/text_to_cmd_vel/publisher_member_function.py -> /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel
+[0.479s] byte-compiling /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel/__init__.py to __init__.cpython-312.pyc
+[0.480s] byte-compiling /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[0.480s] running install_data
+[0.480s] creating /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/share/ament_index
+[0.480s] creating /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index
+[0.481s] creating /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index/packages
+[0.481s] copying resource/text_to_cmd_vel -> /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index/packages
+[0.481s] copying package.xml -> /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel
+[0.481s] running install_egg_info
+[0.486s] Copying ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info to /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel-0.0.0-py3.12.egg-info
+[0.486s] running install_scripts
+[0.536s] Installing talker script to /home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/lib/text_to_cmd_vel
+[0.536s] writing list of installed files to '/home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/install.log'
+[0.551s] Invoked command in '/home/antonadonin/Robotics/lab2/ex10/text_to_cmd_vel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonadonin/Robotics/lab2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/text_to_cmd_vel build --build-base /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/build install --record /home/antonadonin/Robotics/lab2/ex10/build/text_to_cmd_vel/install.log --single-version-externally-managed install_data

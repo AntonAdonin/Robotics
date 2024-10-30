@@ -1,0 +1,321 @@
+[0.000000] (-) TimerEvent: {}
+[0.000515] (task9_pkg) JobQueued: {'identifier': 'task9_pkg', 'dependencies': OrderedDict()}
+[0.000706] (task9_pkg) JobStarted: {'identifier': 'task9_pkg'}
+[0.003786] (task9_pkg) JobProgress: {'identifier': 'task9_pkg', 'progress': 'cmake'}
+[0.003992] (task9_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/antonadonin/Robotics/lab2/ex09/task9_pkg', '-DCMAKE_INSTALL_PREFIX=/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg'], 'cwd': '/home/antonadonin/Robotics/lab2/ex09/build/task9_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,3659,0', 'LANGUAGE': 'ru_RU:en', 'USER': 'antonadonin', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/antonadonin', 'OLDPWD': '/home/antonadonin/Robotics/lab2/ex09/task9_pkg', 'TERM_PROGRAM_VERSION': '3.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'SYSTEMD_EXEC_PID': '2204', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'antonadonin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'antonadonin', 'TERM': 'tmux-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anton:@/tmp/.ICE-unix/2036,unix/anton:/tmp/.ICE-unix/2036', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/25b9105e_caa4_41b3_9d8a_3f326b4fe14b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QIAIW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'TERM_PROGRAM': 'tmux', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/antonadonin/Robotics/lab2/ex09/build/task9_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.016433] (task9_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099402] (-) TimerEvent: {}
+[0.120544] (task9_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.199456] (-) TimerEvent: {}
+[0.199738] (task9_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.204773] (task9_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.239702] (task9_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.267466] (task9_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.299541] (-) TimerEvent: {}
+[0.399757] (-) TimerEvent: {}
+[0.499952] (-) TimerEvent: {}
+[0.600076] (-) TimerEvent: {}
+[0.700217] (-) TimerEvent: {}
+[0.705010] (task9_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.800296] (-) TimerEvent: {}
+[0.900494] (-) TimerEvent: {}
+[1.000731] (-) TimerEvent: {}
+[1.060989] (task9_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.100791] (-) TimerEvent: {}
+[1.200944] (-) TimerEvent: {}
+[1.301148] (-) TimerEvent: {}
+[1.401310] (-) TimerEvent: {}
+[1.501428] (-) TimerEvent: {}
+[1.515297] (task9_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.518058] (task9_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.601484] (-) TimerEvent: {}
+[1.619527] (task9_pkg) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[1.701602] (-) TimerEvent: {}
+[1.801872] (-) TimerEvent: {}
+[1.902083] (-) TimerEvent: {}
+[1.925773] (task9_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.942153] (task9_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.978241] (task9_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.978501] (task9_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.978531] (task9_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.980485] (task9_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.980514] (task9_pkg) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.983889] (task9_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.985773] (task9_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.998448] (task9_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.998482] (task9_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.000348] (task9_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.001829] (task9_pkg) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.002136] (-) TimerEvent: {}
+[2.016961] (task9_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.018161] (task9_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/antonadonin/Robotics/lab2/ex09/build/task9_pkg\n'}
+[2.022330] (task9_pkg) CommandEnded: {'returncode': 0}
+[2.022562] (task9_pkg) JobProgress: {'identifier': 'task9_pkg', 'progress': 'build'}
+[2.022921] (task9_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/antonadonin/Robotics/lab2/ex09/build/task9_pkg', '--', '-j8', '-l8'], 'cwd': '/home/antonadonin/Robotics/lab2/ex09/build/task9_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,3659,0', 'LANGUAGE': 'ru_RU:en', 'USER': 'antonadonin', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/antonadonin', 'OLDPWD': '/home/antonadonin/Robotics/lab2/ex09/task9_pkg', 'TERM_PROGRAM_VERSION': '3.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'SYSTEMD_EXEC_PID': '2204', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'antonadonin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'antonadonin', 'TERM': 'tmux-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anton:@/tmp/.ICE-unix/2036,unix/anton:/tmp/.ICE-unix/2036', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/25b9105e_caa4_41b3_9d8a_3f326b4fe14b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QIAIW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'TERM_PROGRAM': 'tmux', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/antonadonin/Robotics/lab2/ex09/build/task9_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.059183] (task9_pkg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.069822] (task9_pkg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_task9_pkg\n'}
+[2.102206] (-) TimerEvent: {}
+[2.160956] (task9_pkg) StdoutLine: {'line': b'[  2%] Built target task9_pkg__rosidl_generator_type_description\n'}
+[2.165572] (task9_pkg) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.172158] (task9_pkg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.179060] (task9_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.179631] (task9_pkg) StdoutLine: {'line': b'creating task9_pkg.egg-info\n'}
+[2.186612] (task9_pkg) StdoutLine: {'line': b'writing task9_pkg.egg-info/PKG-INFO\n'}
+[2.186750] (task9_pkg) StdoutLine: {'line': b'writing dependency_links to task9_pkg.egg-info/dependency_links.txt\n'}
+[2.186840] (task9_pkg) StdoutLine: {'line': b'writing top-level names to task9_pkg.egg-info/top_level.txt\n'}
+[2.186909] (task9_pkg) StdoutLine: {'line': b"writing manifest file 'task9_pkg.egg-info/SOURCES.txt'\n"}
+[2.202286] (-) TimerEvent: {}
+[2.205962] (task9_pkg) StdoutLine: {'line': b"reading manifest file 'task9_pkg.egg-info/SOURCES.txt'\n"}
+[2.206181] (task9_pkg) StdoutLine: {'line': b"writing manifest file 'task9_pkg.egg-info/SOURCES.txt'\n"}
+[2.223177] (task9_pkg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_task9_pkg_egg\n'}
+[2.302421] (-) TimerEvent: {}
+[2.357725] (task9_pkg) StdoutLine: {'line': b'[  6%] Built target task9_pkg__cpp\n'}
+[2.358613] (task9_pkg) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/msg/detail/full_name_message__functions.c.o\x1b[0m\n'}
+[2.359952] (task9_pkg) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/msg/detail/full_name_message__description.c.o\x1b[0m\n'}
+[2.360163] (task9_pkg) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/srv/detail/full_name_sum_service__type_support.c.o\x1b[0m\n'}
+[2.360258] (task9_pkg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/srv/detail/full_name_sum_service__description.c.o\x1b[0m\n'}
+[2.361774] (task9_pkg) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/msg/detail/full_name_message__type_support.c.o\x1b[0m\n'}
+[2.361926] (task9_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/srv/detail/full_name_sum_service__functions.c.o\x1b[0m\n'}
+[2.402505] (-) TimerEvent: {}
+[2.422599] (task9_pkg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libtask9_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[2.449588] (task9_pkg) StdoutLine: {'line': b'[ 22%] Built target task9_pkg__rosidl_generator_c\n'}
+[2.454914] (task9_pkg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.455026] (task9_pkg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.455059] (task9_pkg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.457919] (task9_pkg) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.457989] (task9_pkg) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.458023] (task9_pkg) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.502596] (-) TimerEvent: {}
+[2.584910] (task9_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/task9_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/task9_pkg/msg/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[2.585427] (task9_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/task9_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/task9_pkg/srv/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[2.593155] (task9_pkg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/task9_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/task9_pkg/msg/detail/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[2.600467] (task9_pkg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/task9_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/task9_pkg/srv/detail/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[2.604475] (-) TimerEvent: {}
+[2.612311] (task9_pkg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/task9_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/task9_pkg/msg/detail/full_name_message__type_support.c.o\x1b[0m\n'}
+[2.629039] (task9_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/task9_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/task9_pkg/msg/detail/dds_fastrtps/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[2.632314] (task9_pkg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/task9_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/task9_pkg/srv/detail/full_name_sum_service__type_support.c.o\x1b[0m\n'}
+[2.648603] (task9_pkg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/task9_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/task9_pkg/msg/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[2.660894] (task9_pkg) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libtask9_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.680081] (task9_pkg) StdoutLine: {'line': b'[ 56%] Built target task9_pkg__rosidl_typesupport_introspection_c\n'}
+[2.684950] (task9_pkg) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/task9_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/task9_pkg/srv/detail/dds_fastrtps/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[2.686926] (task9_pkg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/task9_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/task9_pkg/msg/detail/full_name_message__type_support_c.cpp.o\x1b[0m\n'}
+[2.693258] (task9_pkg) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/task9_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/task9_pkg/srv/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[2.707133] (-) TimerEvent: {}
+[2.744378] (task9_pkg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libtask9_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.765927] (task9_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/task9_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/task9_pkg/srv/detail/full_name_sum_service__type_support_c.cpp.o\x1b[0m\n'}
+[2.779375] (task9_pkg) StdoutLine: {'line': b'[ 68%] Built target task9_pkg__rosidl_typesupport_c\n'}
+[2.807253] (-) TimerEvent: {}
+[2.856767] (task9_pkg) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libtask9_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.856885] (task9_pkg) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libtask9_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.907381] (-) TimerEvent: {}
+[2.920454] (task9_pkg) StdoutLine: {'line': b'[ 72%] Built target task9_pkg__rosidl_typesupport_cpp\n'}
+[2.927926] (task9_pkg) StdoutLine: {'line': b'[ 72%] Built target task9_pkg__rosidl_typesupport_introspection_cpp\n'}
+[3.007528] (-) TimerEvent: {}
+[3.035692] (task9_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libtask9_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.058021] (task9_pkg) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libtask9_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.066309] (task9_pkg) StdoutLine: {'line': b'[ 77%] Built target task9_pkg__rosidl_typesupport_fastrtps_c\n'}
+[3.107614] (-) TimerEvent: {}
+[3.112188] (task9_pkg) StdoutLine: {'line': b'[ 77%] Built target task9_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[3.125013] (task9_pkg) StdoutLine: {'line': b'[ 77%] Built target task9_pkg\n'}
+[3.136922] (task9_pkg) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.207735] (-) TimerEvent: {}
+[3.308160] (-) TimerEvent: {}
+[3.359083] (task9_pkg) StdoutLine: {'line': b'[ 79%] Built target task9_pkg__py\n'}
+[3.368416] (task9_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/task9_pkg__rosidl_generator_py.dir/rosidl_generator_py/task9_pkg/msg/_full_name_message_s.c.o\x1b[0m\n'}
+[3.371919] (task9_pkg) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/task9_pkg__rosidl_generator_py.dir/rosidl_generator_py/task9_pkg/srv/_full_name_sum_service_s.c.o\x1b[0m\n'}
+[3.408284] (-) TimerEvent: {}
+[3.465486] (task9_pkg) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libtask9_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[3.498135] (task9_pkg) StdoutLine: {'line': b'[ 86%] Built target task9_pkg__rosidl_generator_py\n'}
+[3.507437] (task9_pkg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/task9_pkg_s__rosidl_typesupport_c.dir/rosidl_generator_py/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.508339] (-) TimerEvent: {}
+[3.508615] (task9_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/task9_pkg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.513702] (task9_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/task9_pkg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.561595] (task9_pkg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/task9_pkg/task9_pkg_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.566451] (task9_pkg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/task9_pkg/task9_pkg_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.580496] (task9_pkg) StdoutLine: {'line': b'[ 97%] Built target task9_pkg_s__rosidl_typesupport_c\n'}
+[3.583165] (task9_pkg) StdoutLine: {'line': b'[ 97%] Built target task9_pkg_s__rosidl_typesupport_fastrtps_c\n'}
+[3.587255] (task9_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/task9_pkg/task9_pkg_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.605748] (task9_pkg) StdoutLine: {'line': b'[100%] Built target task9_pkg_s__rosidl_typesupport_introspection_c\n'}
+[3.608430] (-) TimerEvent: {}
+[3.611073] (task9_pkg) CommandEnded: {'returncode': 0}
+[3.648663] (task9_pkg) JobProgress: {'identifier': 'task9_pkg', 'progress': 'install'}
+[3.654571] (task9_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/antonadonin/Robotics/lab2/ex09/build/task9_pkg'], 'cwd': '/home/antonadonin/Robotics/lab2/ex09/build/task9_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,3659,0', 'LANGUAGE': 'ru_RU:en', 'USER': 'antonadonin', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/antonadonin', 'OLDPWD': '/home/antonadonin/Robotics/lab2/ex09/task9_pkg', 'TERM_PROGRAM_VERSION': '3.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'SYSTEMD_EXEC_PID': '2204', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'antonadonin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'antonadonin', 'TERM': 'tmux-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anton:@/tmp/.ICE-unix/2036,unix/anton:/tmp/.ICE-unix/2036', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/25b9105e_caa4_41b3_9d8a_3f326b4fe14b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QIAIW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'TERM_PROGRAM': 'tmux', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/antonadonin/Robotics/lab2/ex09/build/task9_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.658853] (task9_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.659775] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/ament_index/resource_index/rosidl_interfaces/task9_pkg\n'}
+[3.660020] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/msg/FullNameMessage.json\n'}
+[3.660299] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/srv/FullNameSumService.json\n'}
+[3.660400] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg\n'}
+[3.660498] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv\n'}
+[3.660597] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail\n'}
+[3.660693] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__description.c\n'}
+[3.660807] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__functions.c\n'}
+[3.660997] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__type_support.h\n'}
+[3.661095] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__functions.h\n'}
+[3.661276] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__type_support.c\n'}
+[3.661375] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__struct.h\n'}
+[3.661472] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/full_name_sum_service.h\n'}
+[3.661568] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg\n'}
+[3.661662] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail\n'}
+[3.661757] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__functions.c\n'}
+[3.661868] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__type_support.c\n'}
+[3.661964] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__functions.h\n'}
+[3.662059] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__description.c\n'}
+[3.662241] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__type_support.h\n'}
+[3.662359] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__struct.h\n'}
+[3.662435] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.662510] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/full_name_message.h\n'}
+[3.662584] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/environment/library_path.sh\n'}
+[3.662657] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/environment/library_path.dsv\n'}
+[3.662731] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_generator_c.so\n'}
+[3.662805] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_generator_c.so" to ""\n'}
+[3.662940] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg\n'}
+[3.663014] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv\n'}
+[3.663089] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail\n'}
+[3.663180] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_c.h\n'}
+[3.663255] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg\n'}
+[3.663327] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail\n'}
+[3.663398] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__rosidl_typesupport_fastrtps_c.h\n'}
+[3.663469] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.663539] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[3.663609] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.663680] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg\n'}
+[3.663758] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv\n'}
+[3.663829] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail\n'}
+[3.663900] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__type_support.c\n'}
+[3.663969] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_c.h\n'}
+[3.664040] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg\n'}
+[3.664116] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail\n'}
+[3.664191] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__rosidl_typesupport_introspection_c.h\n'}
+[3.664261] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__type_support.c\n'}
+[3.664331] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.664400] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_introspection_c.so\n'}
+[3.664470] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.664540] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_c.so\n'}
+[3.664611] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_c.so" to ""\n'}
+[3.664681] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg\n'}
+[3.664751] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv\n'}
+[3.664821] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail\n'}
+[3.664892] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__type_support.hpp\n'}
+[3.664966] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__traits.hpp\n'}
+[3.665035] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__builder.hpp\n'}
+[3.665118] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__struct.hpp\n'}
+[3.665200] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/full_name_sum_service.hpp\n'}
+[3.665266] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg\n'}
+[3.665332] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/full_name_message.hpp\n'}
+[3.665397] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail\n'}
+[3.665462] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__traits.hpp\n'}
+[3.665526] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__builder.hpp\n'}
+[3.665591] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__type_support.hpp\n'}
+[3.665656] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__struct.hpp\n'}
+[3.665721] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.665787] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg\n'}
+[3.665853] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv\n'}
+[3.665918] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail\n'}
+[3.665984] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/dds_fastrtps\n'}
+[3.666048] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.666119] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg\n'}
+[3.666188] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail\n'}
+[3.666254] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/dds_fastrtps\n'}
+[3.666319] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.666385] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.666452] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.666516] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.666583] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg\n'}
+[3.666648] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv\n'}
+[3.666712] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail\n'}
+[3.666778] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__type_support.cpp\n'}
+[3.666843] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.666908] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg\n'}
+[3.666973] (task9_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail\n'}
+[3.667038] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__type_support.cpp\n'}
+[3.667107] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.667177] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[3.667243] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.667310] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_cpp.so\n'}
+[3.667375] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[3.667441] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/environment/pythonpath.sh\n'}
+[3.667506] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/environment/pythonpath.dsv\n'}
+[3.667570] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg-0.0.0-py3.12.egg-info\n'}
+[3.667636] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[3.667700] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[3.667767] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[3.667833] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[3.667904] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg\n'}
+[3.667969] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.668035] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/__init__.py\n'}
+[3.668099] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_introspection_c.so\n'}
+[3.668175] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_c.so\n'}
+[3.668241] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/srv\n'}
+[3.668306] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/srv/__init__.py\n'}
+[3.668372] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/srv/_full_name_sum_service_s.c\n'}
+[3.668437] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/srv/_full_name_sum_service.py\n'}
+[3.668502] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.668567] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[3.668632] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.668696] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/msg\n'}
+[3.668762] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/msg/__init__.py\n'}
+[3.668826] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/msg/_full_name_message_s.c\n'}
+[3.668892] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/msg/_full_name_message.py\n'}
+[3.682069] (task9_pkg) StdoutLine: {'line': b"Listing '/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg'...\n"}
+[3.682407] (task9_pkg) StdoutLine: {'line': b"Compiling '/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/__init__.py'...\n"}
+[3.682685] (task9_pkg) StdoutLine: {'line': b"Listing '/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/msg'...\n"}
+[3.682961] (task9_pkg) StdoutLine: {'line': b"Compiling '/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/msg/__init__.py'...\n"}
+[3.683254] (task9_pkg) StdoutLine: {'line': b"Compiling '/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/msg/_full_name_message.py'...\n"}
+[3.683543] (task9_pkg) StdoutLine: {'line': b"Listing '/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/srv'...\n"}
+[3.683821] (task9_pkg) StdoutLine: {'line': b"Compiling '/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/srv/__init__.py'...\n"}
+[3.684099] (task9_pkg) StdoutLine: {'line': b"Compiling '/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/srv/_full_name_sum_service.py'...\n"}
+[3.685022] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.685155] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.685245] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_introspection_c.so\n'}
+[3.685354] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.685436] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_c.so\n'}
+[3.685547] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/python3.12/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_c.so" to ""\n'}
+[3.685632] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_generator_py.so\n'}
+[3.685719] (task9_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/lib/libtask9_pkg__rosidl_generator_py.so" to ""\n'}
+[3.685808] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/msg/FullNameMessage.idl\n'}
+[3.685880] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/srv/FullNameSumService.idl\n'}
+[3.685961] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/msg/FullNameMessage.msg\n'}
+[3.686057] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/srv/FullNameSumService.srv\n'}
+[3.686145] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/ament_index/resource_index/package_run_dependencies/task9_pkg\n'}
+[3.686239] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/ament_index/resource_index/parent_prefix_path/task9_pkg\n'}
+[3.686308] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/environment/ament_prefix_path.sh\n'}
+[3.686376] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/environment/ament_prefix_path.dsv\n'}
+[3.686454] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/environment/path.sh\n'}
+[3.686549] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/environment/path.dsv\n'}
+[3.686643] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/local_setup.bash\n'}
+[3.686737] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/local_setup.sh\n'}
+[3.686852] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/local_setup.zsh\n'}
+[3.687002] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/local_setup.dsv\n'}
+[3.687097] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/package.dsv\n'}
+[3.687267] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/ament_index/resource_index/packages/task9_pkg\n'}
+[3.687363] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_generator_cExport.cmake\n'}
+[3.687459] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.687554] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.687650] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.687748] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.687874] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.687999] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_cExport.cmake\n'}
+[3.688242] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.688684] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_generator_cppExport.cmake\n'}
+[3.688836] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.688923] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.689004] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.689083] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.689211] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[3.689295] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.689373] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_generator_pyExport.cmake\n'}
+[3.689449] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.689528] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[3.689645] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.689755] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.689836] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.689925] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.690007] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.690083] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.690307] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/task9_pkgConfig.cmake\n'}
+[3.690397] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/cmake/task9_pkgConfig-version.cmake\n'}
+[3.690474] (task9_pkg) StdoutLine: {'line': b'-- Installing: /home/antonadonin/Robotics/lab2/ex09/install/task9_pkg/share/task9_pkg/package.xml\n'}
+[3.690553] (task9_pkg) CommandEnded: {'returncode': 0}
+[3.708519] (-) TimerEvent: {}
+[3.749183] (task9_pkg) JobEnded: {'identifier': 'task9_pkg', 'rc': 0}
+[3.749697] (-) EventReactorShutdown: {}

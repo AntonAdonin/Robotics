@@ -1,0 +1,2 @@
+[console_scripts]
+talker = text_to_cmd_vel.publisher_member_function:main
