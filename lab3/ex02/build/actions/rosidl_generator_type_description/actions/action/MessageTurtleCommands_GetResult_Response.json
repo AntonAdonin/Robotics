@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "actions/action/MessageTurtleCommands_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "actions/action/MessageTurtleCommands_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "actions/action/MessageTurtleCommands_Result",
+        "fields": [
+          {
+            "name": "result",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "actions/action/MessageTurtleCommands_GetResult_Response",
+      "hash_string": "RIHS01_2306b78ddaa5f9fa932bbd81593be53f88aada0289356fb84ced1f2b06246d27"
+    },
+    {
+      "type_name": "actions/action/MessageTurtleCommands_Result",
+      "hash_string": "RIHS01_ddedd8003e8b7fe9d8956337b0ee00f5d8eb18206475cde25710596f36266c9e"
+    }
+  ]
+}

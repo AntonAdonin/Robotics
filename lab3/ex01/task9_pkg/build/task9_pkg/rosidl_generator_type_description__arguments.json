@@ -1,0 +1,12 @@
+{
+  "package_name": "task9_pkg",
+  "output_dir": "/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_generator_type_description/task9_pkg",
+  "idl_tuples": [
+    "/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_adapter/task9_pkg:msg/FullNameMessage.idl",
+    "/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_adapter/task9_pkg:srv/FullNameSumService.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/Users/antonadonin/ros2_jazzy/install/service_msgs/share/service_msgs",
+    "builtin_interfaces:/Users/antonadonin/ros2_jazzy/install/builtin_interfaces/share/builtin_interfaces"
+  ]
+}

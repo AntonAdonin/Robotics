@@ -1,0 +1,10 @@
+setup.py
+task9_pkg/__init__.py
+task9_pkg.egg-info/PKG-INFO
+task9_pkg.egg-info/SOURCES.txt
+task9_pkg.egg-info/dependency_links.txt
+task9_pkg.egg-info/top_level.txt
+task9_pkg/msg/__init__.py
+task9_pkg/msg/_full_name_message.py
+task9_pkg/srv/__init__.py
+task9_pkg/srv/_full_name_sum_service.py

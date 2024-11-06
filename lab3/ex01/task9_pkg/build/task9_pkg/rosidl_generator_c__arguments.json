@@ -1,0 +1,48 @@
+{
+  "package_name": "task9_pkg",
+  "output_dir": "/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_generator_c/task9_pkg",
+  "template_dir": "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_adapter/task9_pkg:msg/FullNameMessage.idl",
+    "/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_adapter/task9_pkg:srv/FullNameSumService.idl"
+  ],
+  "ros_interface_files": [
+    "/Users/antonadonin/ros2_jazzy/task9_pkg/msg/FullNameMessage.msg",
+    "/Users/antonadonin/ros2_jazzy/task9_pkg/srv/FullNameSumService.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/Users/antonadonin/ros2_jazzy/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/Users/antonadonin/ros2_jazzy/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/Users/antonadonin/ros2_jazzy/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/python3.11/site-packages/rosidl_generator_c/__init__.py",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/Users/antonadonin/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_adapter/task9_pkg/msg/FullNameMessage.idl",
+    "/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_adapter/task9_pkg/srv/FullNameSumService.idl",
+    "/Users/antonadonin/ros2_jazzy/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/Users/antonadonin/ros2_jazzy/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/Users/antonadonin/ros2_jazzy/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/FullNameMessage.idl:/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_generator_type_description/task9_pkg/msg/FullNameMessage.json",
+    "srv/FullNameSumService.idl:/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_generator_type_description/task9_pkg/srv/FullNameSumService.json"
+  ]
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+client = service.client:main
+server = service.server:main

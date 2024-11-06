@@ -1,0 +1,234 @@
+[0.008s] Invoking command in '/home/antonadonin/Robotics/lab3/ex02/build/actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antonadonin/Robotics/lab3/ex01/install/service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/antonadonin/Robotics/lab3/ex02/actions -DCMAKE_INSTALL_PREFIX=/home/antonadonin/Robotics/lab3/ex02/install/actions
+[0.112s] -- The C compiler identification is GNU 13.2.0
+[0.205s] -- The CXX compiler identification is GNU 13.2.0
+[0.223s] -- Detecting C compiler ABI info
+[0.299s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.319s] -- Detecting CXX compiler ABI info
+[0.390s] -- Detecting CXX compiler ABI info - done
+[0.396s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.396s] -- Detecting CXX compile features
+[0.397s] -- Detecting CXX compile features - done
+[0.399s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.487s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.557s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.620s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.115s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.447s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.904s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.002s] -- Found PythonExtra: /usr/bin/python3  
+[2.291s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.309s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.324s] -- Added test 'lint_cmake' to check CMake code style
+[2.324s] -- Added test 'xmllint' to check XML markup files
+[2.326s] -- Configuring done (2.3s)
+[2.341s] -- Generating done (0.0s)
+[2.343s] -- Build files have been written to: /home/antonadonin/Robotics/lab3/ex02/build/actions
+[2.346s] Invoked command in '/home/antonadonin/Robotics/lab3/ex02/build/actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antonadonin/Robotics/lab3/ex01/install/service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/antonadonin/Robotics/lab3/ex02/actions -DCMAKE_INSTALL_PREFIX=/home/antonadonin/Robotics/lab3/ex02/install/actions
+[2.347s] Invoking command in '/home/antonadonin/Robotics/lab3/ex02/build/actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antonadonin/Robotics/lab3/ex01/install/service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/antonadonin/Robotics/lab3/ex02/build/actions -- -j8 -l8
+[2.375s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.387s] [  2%] Built target ament_cmake_python_copy_actions
+[2.474s] running egg_info
+[2.474s] creating actions.egg-info
+[2.480s] writing actions.egg-info/PKG-INFO
+[2.480s] writing dependency_links to actions.egg-info/dependency_links.txt
+[2.481s] writing top-level names to actions.egg-info/top_level.txt
+[2.481s] writing manifest file 'actions.egg-info/SOURCES.txt'
+[2.499s] reading manifest file 'actions.egg-info/SOURCES.txt'
+[2.499s] writing manifest file 'actions.egg-info/SOURCES.txt'
+[2.518s] [  2%] Built target ament_cmake_python_build_actions_egg
+[2.536s] [  2%] Built target actions__rosidl_generator_type_description
+[2.544s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.546s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.771s] [  8%] Built target actions__cpp
+[2.808s] [ 11%] [32mBuilding C object CMakeFiles/actions__rosidl_generator_c.dir/rosidl_generator_c/actions/action/detail/message_turtle_commands__description.c.o[0m
+[2.812s] [ 17%] [32mBuilding C object CMakeFiles/actions__rosidl_generator_c.dir/rosidl_generator_c/actions/action/detail/message_turtle_commands__type_support.c.o[0m
+[2.812s] [ 17%] [32mBuilding C object CMakeFiles/actions__rosidl_generator_c.dir/rosidl_generator_c/actions/action/detail/message_turtle_commands__functions.c.o[0m
+[2.908s] [ 20%] [32m[1mLinking C shared library libactions__rosidl_generator_c.so[0m
+[2.929s] [ 20%] Built target actions__rosidl_generator_c
+[2.933s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.933s] [ 26%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.934s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.938s] [ 38%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.938s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.938s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.104s] [ 41%] [32mBuilding CXX object CMakeFiles/actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/actions/action/message_turtle_commands__type_support.cpp.o[0m
+[3.129s] [ 44%] [32mBuilding CXX object CMakeFiles/actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/actions/action/detail/message_turtle_commands__type_support.cpp.o[0m
+[3.163s] [ 47%] [32mBuilding CXX object CMakeFiles/actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/actions/action/message_turtle_commands__type_support.cpp.o[0m
+[3.170s] [ 50%] [32m[1mLinking CXX shared library libactions__rosidl_typesupport_c.so[0m
+[3.202s] [ 50%] Built target actions__rosidl_typesupport_c
+[3.210s] [ 52%] [32mBuilding CXX object CMakeFiles/actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/actions/action/detail/dds_fastrtps/message_turtle_commands__type_support.cpp.o[0m
+[3.237s] [ 55%] [32mBuilding C object CMakeFiles/actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/actions/action/detail/message_turtle_commands__type_support.c.o[0m
+[3.238s] [ 58%] [32mBuilding CXX object CMakeFiles/actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/actions/action/detail/message_turtle_commands__type_support_c.cpp.o[0m
+[3.276s] [ 61%] [32m[1mLinking C shared library libactions__rosidl_typesupport_introspection_c.so[0m
+[3.301s] [ 61%] Built target actions__rosidl_typesupport_introspection_c
+[3.510s] [ 64%] [32m[1mLinking CXX shared library libactions__rosidl_typesupport_cpp.so[0m
+[3.517s] [ 67%] [32m[1mLinking CXX shared library libactions__rosidl_typesupport_introspection_cpp.so[0m
+[3.548s] [ 67%] Built target actions__rosidl_typesupport_cpp
+[3.557s] [ 70%] [32m[1mLinking CXX shared library libactions__rosidl_typesupport_fastrtps_c.so[0m
+[3.589s] [ 70%] Built target actions__rosidl_typesupport_introspection_cpp
+[3.592s] [ 70%] Built target actions__rosidl_typesupport_fastrtps_c
+[3.688s] [ 73%] [32m[1mLinking CXX shared library libactions__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.758s] [ 73%] Built target actions__rosidl_typesupport_fastrtps_cpp
+[3.768s] [ 73%] Built target actions
+[3.783s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.177s] [ 76%] Built target actions__py
+[4.194s] [ 79%] [32mBuilding C object CMakeFiles/actions__rosidl_generator_py.dir/rosidl_generator_py/actions/action/_message_turtle_commands_s.c.o[0m
+[4.354s] [ 82%] [32m[1mLinking C shared library libactions__rosidl_generator_py.so[0m
+[4.388s] [ 82%] Built target actions__rosidl_generator_py
+[4.397s] [ 85%] [32mBuilding C object CMakeFiles/actions_s__rosidl_typesupport_c.dir/rosidl_generator_py/actions/_actions_s.ep.rosidl_typesupport_c.c.o[0m
+[4.398s] [ 88%] [32mBuilding C object CMakeFiles/actions_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/actions/_actions_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.401s] [ 91%] [32mBuilding C object CMakeFiles/actions_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/actions/_actions_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.473s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/actions/actions_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.482s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/actions/actions_s__rosidl_typesupport_c.so[0m
+[4.482s] [100%] [32m[1mLinking C shared module rosidl_generator_py/actions/actions_s__rosidl_typesupport_introspection_c.so[0m
+[4.487s] [100%] Built target actions_s__rosidl_typesupport_fastrtps_c
+[4.495s] [100%] Built target actions_s__rosidl_typesupport_introspection_c
+[4.505s] [100%] Built target actions_s__rosidl_typesupport_c
+[4.514s] Invoked command in '/home/antonadonin/Robotics/lab3/ex02/build/actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antonadonin/Robotics/lab3/ex01/install/service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/antonadonin/Robotics/lab3/ex02/build/actions -- -j8 -l8
+[4.551s] Invoking command in '/home/antonadonin/Robotics/lab3/ex02/build/actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antonadonin/Robotics/lab3/ex01/install/service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/antonadonin/Robotics/lab3/ex02/build/actions
+[4.559s] -- Install configuration: ""
+[4.559s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/ament_index/resource_index/rosidl_interfaces/actions
+[4.559s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/action/MessageTurtleCommands.json
+[4.559s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions
+[4.559s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action
+[4.559s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/message_turtle_commands.h
+[4.559s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail
+[4.559s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__type_support.c
+[4.559s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__functions.h
+[4.560s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__struct.h
+[4.560s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__functions.c
+[4.560s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__description.c
+[4.560s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__type_support.h
+[4.560s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/msg
+[4.560s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/msg/rosidl_generator_c__visibility_control.h
+[4.560s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/environment/library_path.sh
+[4.560s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/environment/library_path.dsv
+[4.560s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_generator_c.so
+[4.561s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_generator_c.so" to ""
+[4.561s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions
+[4.561s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action
+[4.561s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail
+[4.561s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__rosidl_typesupport_fastrtps_c.h
+[4.561s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/msg
+[4.561s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.561s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_fastrtps_c.so
+[4.561s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_fastrtps_c.so" to ""
+[4.561s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions
+[4.561s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action
+[4.561s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail
+[4.561s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__type_support.c
+[4.561s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__rosidl_typesupport_introspection_c.h
+[4.561s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/msg
+[4.561s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.562s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_introspection_c.so
+[4.562s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_introspection_c.so" to ""
+[4.562s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_c.so
+[4.562s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_c.so" to ""
+[4.562s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions
+[4.562s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action
+[4.562s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail
+[4.562s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__builder.hpp
+[4.562s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__type_support.hpp
+[4.562s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__traits.hpp
+[4.562s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__struct.hpp
+[4.563s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/message_turtle_commands.hpp
+[4.563s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/msg
+[4.563s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.563s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions
+[4.563s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action
+[4.563s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail
+[4.563s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/dds_fastrtps
+[4.563s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[4.563s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/msg
+[4.563s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.563s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_fastrtps_cpp.so
+[4.563s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.563s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions
+[4.564s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action
+[4.564s] -- Up-to-date: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail
+[4.564s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__rosidl_typesupport_introspection_cpp.hpp
+[4.564s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/include/actions/actions/action/detail/message_turtle_commands__type_support.cpp
+[4.564s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_introspection_cpp.so
+[4.564s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_introspection_cpp.so" to ""
+[4.564s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_cpp.so
+[4.565s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_typesupport_cpp.so" to ""
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/environment/pythonpath.sh
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/environment/pythonpath.dsv
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions-0.0.0-py3.12.egg-info
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions-0.0.0-py3.12.egg-info/PKG-INFO
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions-0.0.0-py3.12.egg-info/dependency_links.txt
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions-0.0.0-py3.12.egg-info/SOURCES.txt
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions-0.0.0-py3.12.egg-info/top_level.txt
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/__init__.py
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/actions_s__rosidl_typesupport_introspection_c.so
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/_actions_s.ep.rosidl_typesupport_introspection_c.c
+[4.565s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/actions_s__rosidl_typesupport_fastrtps_c.so
+[4.566s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.566s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/actions_s__rosidl_typesupport_c.so
+[4.566s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/action
+[4.566s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/action/__init__.py
+[4.566s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/action/_message_turtle_commands_s.c
+[4.566s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/action/_message_turtle_commands.py
+[4.566s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/_actions_s.ep.rosidl_typesupport_c.c
+[4.589s] Listing '/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions'...
+[4.590s] Compiling '/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/__init__.py'...
+[4.590s] Listing '/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/action'...
+[4.590s] Compiling '/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/action/__init__.py'...
+[4.590s] Compiling '/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/action/_message_turtle_commands.py'...
+[4.592s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/actions_s__rosidl_typesupport_fastrtps_c.so
+[4.592s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/actions_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.592s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/actions_s__rosidl_typesupport_introspection_c.so
+[4.592s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/actions_s__rosidl_typesupport_introspection_c.so" to ""
+[4.592s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/actions_s__rosidl_typesupport_c.so
+[4.593s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/python3.12/site-packages/actions/actions_s__rosidl_typesupport_c.so" to ""
+[4.593s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_generator_py.so
+[4.593s] -- Set non-toolchain portion of runtime path of "/home/antonadonin/Robotics/lab3/ex02/install/actions/lib/libactions__rosidl_generator_py.so" to ""
+[4.593s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/action/MessageTurtleCommands.idl
+[4.593s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/action/MessageTurtleCommands.action
+[4.593s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/ament_index/resource_index/package_run_dependencies/actions
+[4.593s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/ament_index/resource_index/parent_prefix_path/actions
+[4.593s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/environment/ament_prefix_path.sh
+[4.594s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/environment/ament_prefix_path.dsv
+[4.594s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/environment/path.sh
+[4.594s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/environment/path.dsv
+[4.594s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/local_setup.bash
+[4.594s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/local_setup.sh
+[4.594s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/local_setup.zsh
+[4.594s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/local_setup.dsv
+[4.594s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/package.dsv
+[4.594s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/ament_index/resource_index/packages/actions
+[4.594s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/export_actions__rosidl_generator_cExport.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/export_actions__rosidl_generator_cExport-noconfig.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/export_actions__rosidl_typesupport_fastrtps_cExport.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/export_actions__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/actions__rosidl_typesupport_introspection_cExport.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/actions__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/actions__rosidl_typesupport_cExport.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/actions__rosidl_typesupport_cExport-noconfig.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/export_actions__rosidl_generator_cppExport.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/export_actions__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/export_actions__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.595s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/actions__rosidl_typesupport_introspection_cppExport.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/actions__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/actions__rosidl_typesupport_cppExport.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/actions__rosidl_typesupport_cppExport-noconfig.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/export_actions__rosidl_generator_pyExport.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/export_actions__rosidl_generator_pyExport-noconfig.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/rosidl_cmake-extras.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/ament_cmake_export_libraries-extras.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/ament_cmake_export_targets-extras.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.596s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/actionsConfig.cmake
+[4.597s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/cmake/actionsConfig-version.cmake
+[4.597s] -- Installing: /home/antonadonin/Robotics/lab3/ex02/install/actions/share/actions/package.xml
+[4.597s] Invoked command in '/home/antonadonin/Robotics/lab3/ex02/build/actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antonadonin/Robotics/lab3/ex01/install/service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/antonadonin/Robotics/lab3/ex02/build/actions

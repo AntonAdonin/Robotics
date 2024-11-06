@@ -1,0 +1,271 @@
+-- The C compiler identification is AppleClang 16.0.0.16000026
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.0 (/Users/antonadonin/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /Users/antonadonin/.ros2_venv/bin/python3 (found version "3.11.8") found components: Interpreter
+-- Found rosidl_default_generators: 1.6.0 (/Users/antonadonin/ros2_jazzy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rosidl_adapter: 4.6.2 (/Users/antonadonin/ros2_jazzy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/Users/antonadonin/ros2_jazzy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.11.1 (/Users/antonadonin/ros2_jazzy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /Users/antonadonin/.ros2_venv/bin/python3
+-- Found Python3: /Users/antonadonin/.ros2_venv/bin/python3 (found version "3.11.8") found components: Interpreter Development NumPy Development.Module Development.Embed
+-- Found ament_lint_auto: 0.17.0 (/Users/antonadonin/ros2_jazzy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_generator_c>;$<BUILD_INTERFACE:/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_generator_cpp>;$<BUILD_INTERFACE:/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_typesupport_introspection_cpp>;$<BUILD_INTERFACE:/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_typesupport_fastrtps_cpp>;/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_generator_c;/Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg/rosidl_generator_py
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (9.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/antonadonin/ros2_jazzy/task9_pkg/build/task9_pkg
+[  2%] Generating type hashes for ROS interfaces
+[  2%] Built target ament_cmake_python_copy_task9_pkg
+[  2%] Built target task9_pkg__rosidl_generator_type_description
+[  4%] Generating C code for ROS interfaces
+[  6%] Generating C++ code for ROS interfaces
+running egg_info
+creating task9_pkg.egg-info
+writing task9_pkg.egg-info/PKG-INFO
+writing dependency_links to task9_pkg.egg-info/dependency_links.txt
+writing top-level names to task9_pkg.egg-info/top_level.txt
+writing manifest file 'task9_pkg.egg-info/SOURCES.txt'
+reading manifest file 'task9_pkg.egg-info/SOURCES.txt'
+writing manifest file 'task9_pkg.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_task9_pkg_egg
+[  6%] Built target task9_pkg__cpp
+[  9%] Building C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/msg/detail/full_name_message__description.c.o
+[ 11%] Building C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/msg/detail/full_name_message__functions.c.o
+[ 13%] Building C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/srv/detail/full_name_sum_service__description.c.o
+[ 15%] Building C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/srv/detail/full_name_sum_service__type_support.c.o
+[ 18%] Building C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/msg/detail/full_name_message__type_support.c.o
+[ 20%] Building C object CMakeFiles/task9_pkg__rosidl_generator_c.dir/rosidl_generator_c/task9_pkg/srv/detail/full_name_sum_service__functions.c.o
+[ 22%] Linking C shared library libtask9_pkg__rosidl_generator_c.dylib
+[ 22%] Built target task9_pkg__rosidl_generator_c
+[ 25%] Generating C++ introspection for ROS interfaces
+[ 29%] Generating C introspection for ROS interfaces
+[ 29%] Generating C++ type support for eProsima Fast-RTPS
+[ 31%] Generating C type support for eProsima Fast-RTPS
+[ 34%] Generating C++ type support dispatch for ROS interfaces
+[ 36%] Generating C type support dispatch for ROS interfaces
+[ 38%] Building CXX object CMakeFiles/task9_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/task9_pkg/msg/full_name_message__type_support.cpp.o
+[ 40%] Building CXX object CMakeFiles/task9_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/task9_pkg/srv/full_name_sum_service__type_support.cpp.o
+[ 43%] Building CXX object CMakeFiles/task9_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/task9_pkg/msg/full_name_message__type_support.cpp.o
+[ 45%] Building CXX object CMakeFiles/task9_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/task9_pkg/srv/full_name_sum_service__type_support.cpp.o
+[ 47%] Building C object CMakeFiles/task9_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/task9_pkg/msg/detail/full_name_message__type_support.c.o
+[ 50%] Building CXX object CMakeFiles/task9_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/task9_pkg/msg/detail/full_name_message__type_support.cpp.o
+[ 52%] Building C object CMakeFiles/task9_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/task9_pkg/srv/detail/full_name_sum_service__type_support.c.o
+[ 54%] Linking CXX shared library libtask9_pkg__rosidl_typesupport_c.dylib
+[ 56%] Building CXX object CMakeFiles/task9_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/task9_pkg/srv/detail/full_name_sum_service__type_support.cpp.o
+[ 59%] Building CXX object CMakeFiles/task9_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/task9_pkg/msg/detail/dds_fastrtps/full_name_message__type_support.cpp.o
+[ 61%] Linking C shared library libtask9_pkg__rosidl_typesupport_introspection_c.dylib
+[ 61%] Built target task9_pkg__rosidl_typesupport_c
+[ 63%] Building CXX object CMakeFiles/task9_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/task9_pkg/msg/detail/full_name_message__type_support_c.cpp.o
+[ 65%] Building CXX object CMakeFiles/task9_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/task9_pkg/srv/detail/dds_fastrtps/full_name_sum_service__type_support.cpp.o
+[ 65%] Built target task9_pkg__rosidl_typesupport_introspection_c
+[ 68%] Building CXX object CMakeFiles/task9_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/task9_pkg/srv/detail/full_name_sum_service__type_support_c.cpp.o
+[ 70%] Linking CXX shared library libtask9_pkg__rosidl_typesupport_cpp.dylib
+[ 70%] Built target task9_pkg__rosidl_typesupport_cpp
+[ 72%] Linking CXX shared library libtask9_pkg__rosidl_typesupport_introspection_cpp.dylib
+[ 72%] Built target task9_pkg__rosidl_typesupport_introspection_cpp
+[ 75%] Linking CXX shared library libtask9_pkg__rosidl_typesupport_fastrtps_cpp.dylib
+[ 77%] Linking CXX shared library libtask9_pkg__rosidl_typesupport_fastrtps_c.dylib
+[ 77%] Built target task9_pkg__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target task9_pkg__rosidl_typesupport_fastrtps_c
+[ 77%] Built target task9_pkg
+[ 79%] Generating Python code for ROS interfaces
+[ 79%] Built target task9_pkg__py
+[ 84%] Building C object CMakeFiles/task9_pkg__rosidl_generator_py.dir/rosidl_generator_py/task9_pkg/srv/_full_name_sum_service_s.c.o
+[ 84%] Building C object CMakeFiles/task9_pkg__rosidl_generator_py.dir/rosidl_generator_py/task9_pkg/msg/_full_name_message_s.c.o
+[ 86%] Linking C shared library libtask9_pkg__rosidl_generator_py.dylib
+[ 86%] Built target task9_pkg__rosidl_generator_py
+[ 93%] Building C object CMakeFiles/task9_pkg_s__rosidl_typesupport_c.dir/rosidl_generator_py/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_c.c.o
+[ 93%] Building C object CMakeFiles/task9_pkg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 93%] Building C object CMakeFiles/task9_pkg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_introspection_c.c.o
+[100%] Linking C shared module rosidl_generator_py/task9_pkg/task9_pkg_s__rosidl_typesupport_fastrtps_c.so
+[100%] Linking C shared module rosidl_generator_py/task9_pkg/task9_pkg_s__rosidl_typesupport_c.so
+[100%] Linking C shared module rosidl_generator_py/task9_pkg/task9_pkg_s__rosidl_typesupport_introspection_c.so
+[100%] Built target task9_pkg_s__rosidl_typesupport_fastrtps_c
+[100%] Built target task9_pkg_s__rosidl_typesupport_introspection_c
+[100%] Built target task9_pkg_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/ament_index/resource_index/rosidl_interfaces/task9_pkg
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/msg/FullNameMessage.json
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/srv/FullNameSumService.json
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__functions.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__type_support.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__struct.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__description.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__type_support.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__functions.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/full_name_message.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__type_support.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__description.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__functions.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__struct.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__type_support.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__functions.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/full_name_sum_service.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/environment/library_path.sh
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/environment/library_path.dsv
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/libtask9_pkg__rosidl_generator_c.dylib
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__rosidl_typesupport_introspection_c.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__type_support.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_c.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__type_support.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_introspection_c.dylib
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__rosidl_typesupport_fastrtps_c.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_c.h
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_fastrtps_c.dylib
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_c.dylib
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__traits.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__builder.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__struct.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__type_support.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/full_name_message.hpp
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/full_name_sum_service.hpp
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__traits.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__builder.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__struct.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__type_support.hpp
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__type_support.cpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__type_support.cpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_introspection_cpp.dylib
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/full_name_message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/msg/detail/dds_fastrtps
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/dds_fastrtps
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/include/task9_pkg/task9_pkg/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_fastrtps_cpp.dylib
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/libtask9_pkg__rosidl_typesupport_cpp.dylib
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/environment/pythonpath.sh
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/environment/pythonpath.dsv
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg-0.0.0-py3.11.egg-info
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg-0.0.0-py3.11.egg-info/PKG-INFO
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg-0.0.0-py3.11.egg-info/SOURCES.txt
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg-0.0.0-py3.11.egg-info/top_level.txt
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg-0.0.0-py3.11.egg-info/dependency_links.txt
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_introspection_c.so
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/msg
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/msg/_full_name_message_s.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/msg/_full_name_message.py
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/msg/__init__.py
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/__init__.py
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/_task9_pkg_s.ep.rosidl_typesupport_c.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/srv
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/srv/_full_name_sum_service_s.c
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/srv/__init__.py
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/srv/_full_name_sum_service.py
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_c.so
+Listing '/Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg'...
+Compiling '/Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/__init__.py'...
+Listing '/Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/msg'...
+Compiling '/Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/msg/__init__.py'...
+Compiling '/Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/msg/_full_name_message.py'...
+Listing '/Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/srv'...
+Compiling '/Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/srv/__init__.py'...
+Compiling '/Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/srv/_full_name_sum_service.py'...
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/python3.11/site-packages/task9_pkg/task9_pkg_s__rosidl_typesupport_c.so
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/lib/libtask9_pkg__rosidl_generator_py.dylib
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/msg/FullNameMessage.idl
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/srv/FullNameSumService.idl
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/msg/FullNameMessage.msg
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/srv/FullNameSumService.srv
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/ament_index/resource_index/package_run_dependencies/task9_pkg
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/ament_index/resource_index/parent_prefix_path/task9_pkg
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/environment/ament_prefix_path.sh
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/environment/ament_prefix_path.dsv
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/environment/path.sh
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/environment/path.dsv
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/local_setup.bash
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/local_setup.sh
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/local_setup.zsh
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/local_setup.dsv
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/package.dsv
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/ament_index/resource_index/packages/task9_pkg
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_generator_cExport.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_cExport.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_generator_cppExport.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_cppExport.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/task9_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_generator_pyExport.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/export_task9_pkg__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/rosidl_cmake-extras.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/task9_pkgConfig.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/cmake/task9_pkgConfig-version.cmake
+-- Installing: /Users/antonadonin/ros2_jazzy/task9_pkg/install/task9_pkg/share/task9_pkg/package.xml

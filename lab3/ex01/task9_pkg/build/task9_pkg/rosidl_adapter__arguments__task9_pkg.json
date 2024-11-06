@@ -1,0 +1,7 @@
+{
+  "package_name": "task9_pkg",
+  "non_idl_tuples": [
+    "/Users/antonadonin/ros2_jazzy/task9_pkg:msg/FullNameMessage.msg",
+    "/Users/antonadonin/ros2_jazzy/task9_pkg:srv/FullNameSumService.srv"
+  ]
+}

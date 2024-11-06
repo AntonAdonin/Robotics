@@ -1,0 +1,26 @@
+[0.348s] Invoking command in '/home/antonadonin/Robotics/lab3/ex01/service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonadonin/Robotics/lab3/ex01/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonadonin/Robotics/lab3/ex01/install/service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/service build --build-base /home/antonadonin/Robotics/lab3/ex01/build/service/build install --record /home/antonadonin/Robotics/lab3/ex01/build/service/install.log --single-version-externally-managed install_data
+[0.450s] running egg_info
+[0.457s] writing ../build/service/service.egg-info/PKG-INFO
+[0.457s] writing dependency_links to ../build/service/service.egg-info/dependency_links.txt
+[0.457s] writing entry points to ../build/service/service.egg-info/entry_points.txt
+[0.457s] writing requirements to ../build/service/service.egg-info/requires.txt
+[0.457s] writing top-level names to ../build/service/service.egg-info/top_level.txt
+[0.470s] reading manifest file '../build/service/service.egg-info/SOURCES.txt'
+[0.470s] adding license file 'LICENSE'
+[0.471s] writing manifest file '../build/service/service.egg-info/SOURCES.txt'
+[0.471s] running build
+[0.471s] running build_py
+[0.471s] copying service/server.py -> /home/antonadonin/Robotics/lab3/ex01/build/service/build/lib/service
+[0.471s] running install
+[0.474s] running install_lib
+[0.481s] copying /home/antonadonin/Robotics/lab3/ex01/build/service/build/lib/service/server.py -> /home/antonadonin/Robotics/lab3/ex01/install/service/lib/python3.12/site-packages/service
+[0.481s] byte-compiling /home/antonadonin/Robotics/lab3/ex01/install/service/lib/python3.12/site-packages/service/server.py to server.cpython-312.pyc
+[0.481s] running install_data
+[0.481s] running install_egg_info
+[0.488s] removing '/home/antonadonin/Robotics/lab3/ex01/install/service/lib/python3.12/site-packages/service-0.0.0-py3.12.egg-info' (and everything under it)
+[0.488s] Copying ../build/service/service.egg-info to /home/antonadonin/Robotics/lab3/ex01/install/service/lib/python3.12/site-packages/service-0.0.0-py3.12.egg-info
+[0.489s] running install_scripts
+[0.537s] Installing client script to /home/antonadonin/Robotics/lab3/ex01/install/service/lib/service
+[0.537s] Installing server script to /home/antonadonin/Robotics/lab3/ex01/install/service/lib/service
+[0.537s] writing list of installed files to '/home/antonadonin/Robotics/lab3/ex01/build/service/install.log'
+[0.550s] Invoked command in '/home/antonadonin/Robotics/lab3/ex01/service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonadonin/Robotics/lab3/ex01/build/service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonadonin/Robotics/lab3/ex01/install/service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/service build --build-base /home/antonadonin/Robotics/lab3/ex01/build/service/build install --record /home/antonadonin/Robotics/lab3/ex01/build/service/install.log --single-version-externally-managed install_data
