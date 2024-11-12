@@ -1,0 +1,26 @@
+[0.348s] Invoking command in '/home/antonadonin/Robotics/lab4/ex03/timetravel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonadonin/Robotics/lab4/ex03/build/timetravel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/timetravel build --build-base /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build install --record /home/antonadonin/Robotics/lab4/ex03/build/timetravel/install.log --single-version-externally-managed install_data
+[0.451s] running egg_info
+[0.458s] writing ../build/timetravel/timetravel.egg-info/PKG-INFO
+[0.458s] writing dependency_links to ../build/timetravel/timetravel.egg-info/dependency_links.txt
+[0.458s] writing entry points to ../build/timetravel/timetravel.egg-info/entry_points.txt
+[0.458s] writing requirements to ../build/timetravel/timetravel.egg-info/requires.txt
+[0.459s] writing top-level names to ../build/timetravel/timetravel.egg-info/top_level.txt
+[0.471s] reading manifest file '../build/timetravel/timetravel.egg-info/SOURCES.txt'
+[0.472s] writing manifest file '../build/timetravel/timetravel.egg-info/SOURCES.txt'
+[0.472s] running build
+[0.472s] running build_py
+[0.472s] copying timetravel/turtle2_tf2_listener.py -> /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel
+[0.472s] running install
+[0.475s] running install_lib
+[0.482s] copying /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel/turtle2_tf2_listener.py -> /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel
+[0.482s] byte-compiling /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel/turtle2_tf2_listener.py to turtle2_tf2_listener.cpython-312.pyc
+[0.483s] running install_data
+[0.483s] running install_egg_info
+[0.490s] removing '/home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel-0.0.0-py3.12.egg-info' (and everything under it)
+[0.490s] Copying ../build/timetravel/timetravel.egg-info to /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel-0.0.0-py3.12.egg-info
+[0.491s] running install_scripts
+[0.542s] Installing turtle1_tf2_broadcaster script to /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/timetravel
+[0.542s] Installing turtle2_tf2_broadcaster script to /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/timetravel
+[0.542s] Installing turtle2_tf2_listener script to /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/timetravel
+[0.543s] writing list of installed files to '/home/antonadonin/Robotics/lab4/ex03/build/timetravel/install.log'
+[0.556s] Invoked command in '/home/antonadonin/Robotics/lab4/ex03/timetravel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonadonin/Robotics/lab4/ex03/build/timetravel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/timetravel build --build-base /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build install --record /home/antonadonin/Robotics/lab4/ex03/build/timetravel/install.log --single-version-externally-managed install_data

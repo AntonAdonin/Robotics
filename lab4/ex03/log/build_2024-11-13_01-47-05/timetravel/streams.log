@@ -1,0 +1,47 @@
+[0.436s] Invoking command in '/home/antonadonin/Robotics/lab4/ex03/timetravel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonadonin/Robotics/lab4/ex03/build/timetravel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/timetravel build --build-base /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build install --record /home/antonadonin/Robotics/lab4/ex03/build/timetravel/install.log --single-version-externally-managed install_data
+[0.537s] running egg_info
+[0.537s] creating ../build/timetravel/timetravel.egg-info
+[0.544s] writing ../build/timetravel/timetravel.egg-info/PKG-INFO
+[0.544s] writing dependency_links to ../build/timetravel/timetravel.egg-info/dependency_links.txt
+[0.544s] writing entry points to ../build/timetravel/timetravel.egg-info/entry_points.txt
+[0.544s] writing requirements to ../build/timetravel/timetravel.egg-info/requires.txt
+[0.544s] writing top-level names to ../build/timetravel/timetravel.egg-info/top_level.txt
+[0.544s] writing manifest file '../build/timetravel/timetravel.egg-info/SOURCES.txt'
+[0.558s] reading manifest file '../build/timetravel/timetravel.egg-info/SOURCES.txt'
+[0.558s] writing manifest file '../build/timetravel/timetravel.egg-info/SOURCES.txt'
+[0.558s] running build
+[0.558s] running build_py
+[0.558s] creating /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build
+[0.559s] creating /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib
+[0.559s] creating /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel
+[0.559s] copying timetravel/__init__.py -> /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel
+[0.559s] copying timetravel/turtle2_tf2_broadcaster.py -> /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel
+[0.559s] copying timetravel/turtle2_tf2_listener.py -> /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel
+[0.559s] copying timetravel/turtle1_tf2_broadcaster.py -> /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel
+[0.559s] running install
+[0.562s] running install_lib
+[0.569s] creating /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel
+[0.569s] copying /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel/__init__.py -> /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel
+[0.569s] copying /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel/turtle2_tf2_broadcaster.py -> /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel
+[0.569s] copying /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel/turtle2_tf2_listener.py -> /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel
+[0.569s] copying /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build/lib/timetravel/turtle1_tf2_broadcaster.py -> /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel
+[0.569s] byte-compiling /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel/__init__.py to __init__.cpython-312.pyc
+[0.569s] byte-compiling /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel/turtle2_tf2_broadcaster.py to turtle2_tf2_broadcaster.cpython-312.pyc
+[0.570s] byte-compiling /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel/turtle2_tf2_listener.py to turtle2_tf2_listener.cpython-312.pyc
+[0.570s] byte-compiling /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel/turtle1_tf2_broadcaster.py to turtle1_tf2_broadcaster.cpython-312.pyc
+[0.570s] running install_data
+[0.570s] creating /home/antonadonin/Robotics/lab4/ex03/install/timetravel/share/ament_index
+[0.570s] creating /home/antonadonin/Robotics/lab4/ex03/install/timetravel/share/ament_index/resource_index
+[0.570s] creating /home/antonadonin/Robotics/lab4/ex03/install/timetravel/share/ament_index/resource_index/packages
+[0.570s] copying resource/timetravel -> /home/antonadonin/Robotics/lab4/ex03/install/timetravel/share/ament_index/resource_index/packages
+[0.571s] copying package.xml -> /home/antonadonin/Robotics/lab4/ex03/install/timetravel/share/timetravel
+[0.571s] creating /home/antonadonin/Robotics/lab4/ex03/install/timetravel/share/timetravel/launch
+[0.571s] copying launch/turtle_time_travel.launch.py -> /home/antonadonin/Robotics/lab4/ex03/install/timetravel/share/timetravel/launch
+[0.571s] running install_egg_info
+[0.578s] Copying ../build/timetravel/timetravel.egg-info to /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages/timetravel-0.0.0-py3.12.egg-info
+[0.578s] running install_scripts
+[0.628s] Installing turtle1_tf2_broadcaster script to /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/timetravel
+[0.628s] Installing turtle2_tf2_broadcaster script to /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/timetravel
+[0.628s] Installing turtle2_tf2_listener script to /home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/timetravel
+[0.628s] writing list of installed files to '/home/antonadonin/Robotics/lab4/ex03/build/timetravel/install.log'
+[0.642s] Invoked command in '/home/antonadonin/Robotics/lab4/ex03/timetravel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonadonin/Robotics/lab4/ex03/build/timetravel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonadonin/Robotics/lab4/ex03/install/timetravel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/timetravel build --build-base /home/antonadonin/Robotics/lab4/ex03/build/timetravel/build install --record /home/antonadonin/Robotics/lab4/ex03/build/timetravel/install.log --single-version-externally-managed install_data

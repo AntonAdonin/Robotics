@@ -1,0 +1,4 @@
+[console_scripts]
+turtle1_tf2_broadcaster = timetravel.turtle1_tf2_broadcaster:main
+turtle2_tf2_broadcaster = timetravel.turtle2_tf2_broadcaster:main
+turtle2_tf2_listener = timetravel.turtle2_tf2_listener:main

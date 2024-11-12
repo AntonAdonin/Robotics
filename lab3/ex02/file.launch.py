@@ -1,5 +1,5 @@
 import os
-from launch import LaunchDescription
+from lab4.ex02.my_pkg.launch.launch import LaunchDescription
 from launch_ros.actions import Node
 
 def generate_launch_description():
