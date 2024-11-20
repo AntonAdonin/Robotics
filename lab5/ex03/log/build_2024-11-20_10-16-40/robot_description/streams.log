@@ -1,0 +1,31 @@
+[0.002s] Invoking command in '/home/antonadonin/Robotics/lab5/ex03/build/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/antonadonin/Robotics/lab5/ex03/robot_description -DCMAKE_INSTALL_PREFIX=/home/antonadonin/Robotics/lab5/ex03/install/robot_description
+[0.115s] -- The C compiler identification is GNU 13.2.0
+[0.197s] -- The CXX compiler identification is GNU 13.2.0
+[0.209s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.363s] -- Detecting CXX compile features
+[0.363s] -- Detecting CXX compile features - done
+[0.372s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.372s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.372s]   has asked CMake to find a package configuration file provided by
+[0.372s]   "ament_cmake", but CMake did not find one.
+[0.372s] 
+[0.372s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.373s]   any of the following names:
+[0.373s] 
+[0.373s]     ament_cmakeConfig.cmake
+[0.373s]     ament_cmake-config.cmake
+[0.373s] 
+[0.373s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.373s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.373s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.373s]   has been installed.
+[0.373s] 
+[0.373s] [0m
+[0.373s] -- Configuring incomplete, errors occurred!

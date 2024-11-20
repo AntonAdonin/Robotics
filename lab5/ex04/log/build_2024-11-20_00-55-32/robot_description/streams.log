@@ -1,0 +1,44 @@
+[0.114s] Invoking command in '/home/antonadonin/Robotics/lab5/ex04/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/antonadonin/Robotics/lab5/ex04/robot_description -DCMAKE_INSTALL_PREFIX=/home/antonadonin/Robotics/lab5/ex04/install/robot_description
+[0.213s] -- The C compiler identification is GNU 13.2.0
+[0.310s] -- The CXX compiler identification is GNU 13.2.0
+[0.324s] -- Detecting C compiler ABI info
+[0.376s] -- Detecting C compiler ABI info - done
+[0.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.399s] -- Detecting CXX compiler ABI info
+[0.482s] -- Detecting CXX compiler ABI info - done
+[0.495s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.495s] -- Detecting CXX compile features
+[0.496s] -- Detecting CXX compile features - done
+[0.499s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.637s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.720s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.767s] -- Configuring done (0.6s)
+[0.770s] -- Generating done (0.0s)
+[0.771s] -- Build files have been written to: /home/antonadonin/Robotics/lab5/ex04/build/robot_description
+[0.776s] Invoked command in '/home/antonadonin/Robotics/lab5/ex04/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/antonadonin/Robotics/lab5/ex04/robot_description -DCMAKE_INSTALL_PREFIX=/home/antonadonin/Robotics/lab5/ex04/install/robot_description
+[0.777s] Invoking command in '/home/antonadonin/Robotics/lab5/ex04/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/antonadonin/Robotics/lab5/ex04/build/robot_description -- -j8 -l8
+[0.802s] Invoked command in '/home/antonadonin/Robotics/lab5/ex04/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/antonadonin/Robotics/lab5/ex04/build/robot_description -- -j8 -l8
+[0.814s] Invoking command in '/home/antonadonin/Robotics/lab5/ex04/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/antonadonin/Robotics/lab5/ex04/build/robot_description
+[0.823s] -- Install configuration: ""
+[0.823s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description//urdf
+[0.823s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description//urdf/robot.urdf.xacro
+[0.823s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description//urdf/gazebo.urdf.xacro
+[0.823s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description//urdf/test.urdf
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/environment/path.sh
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/environment/path.dsv
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/local_setup.bash
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/local_setup.sh
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/local_setup.zsh
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/local_setup.dsv
+[0.824s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/package.dsv
+[0.825s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.825s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.825s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.825s] -- Installing: /home/antonadonin/Robotics/lab5/ex04/install/robot_description/share/robot_description/package.xml
+[0.826s] Invoked command in '/home/antonadonin/Robotics/lab5/ex04/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/antonadonin/Robotics/lab5/ex04/build/robot_description

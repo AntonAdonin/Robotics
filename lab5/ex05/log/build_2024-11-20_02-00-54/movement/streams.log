@@ -1,0 +1,21 @@
+[0.409s] Invoking command in '/home/antonadonin/Robotics/lab5/ex05/movement': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonadonin/Robotics/lab5/ex05/build/movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonadonin/Robotics/lab5/ex05/install/movement/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/movement build --build-base /home/antonadonin/Robotics/lab5/ex05/build/movement/build install --record /home/antonadonin/Robotics/lab5/ex05/build/movement/install.log --single-version-externally-managed install_data
+[0.529s] running egg_info
+[0.536s] writing ../build/movement/movement.egg-info/PKG-INFO
+[0.536s] writing dependency_links to ../build/movement/movement.egg-info/dependency_links.txt
+[0.536s] writing entry points to ../build/movement/movement.egg-info/entry_points.txt
+[0.536s] writing requirements to ../build/movement/movement.egg-info/requires.txt
+[0.536s] writing top-level names to ../build/movement/movement.egg-info/top_level.txt
+[0.550s] reading manifest file '../build/movement/movement.egg-info/SOURCES.txt'
+[0.550s] writing manifest file '../build/movement/movement.egg-info/SOURCES.txt'
+[0.550s] running build
+[0.550s] running build_py
+[0.550s] running install
+[0.554s] running install_lib
+[0.561s] running install_data
+[0.561s] running install_egg_info
+[0.568s] removing '/home/antonadonin/Robotics/lab5/ex05/install/movement/lib/python3.12/site-packages/movement-0.0.0-py3.12.egg-info' (and everything under it)
+[0.568s] Copying ../build/movement/movement.egg-info to /home/antonadonin/Robotics/lab5/ex05/install/movement/lib/python3.12/site-packages/movement-0.0.0-py3.12.egg-info
+[0.569s] running install_scripts
+[0.619s] Installing movement_node script to /home/antonadonin/Robotics/lab5/ex05/install/movement/lib/movement
+[0.619s] writing list of installed files to '/home/antonadonin/Robotics/lab5/ex05/build/movement/install.log'
+[0.635s] Invoked command in '/home/antonadonin/Robotics/lab5/ex05/movement' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/antonadonin/Robotics/lab5/ex05/build/movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonadonin/Robotics/lab5/ex05/install/movement/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/movement build --build-base /home/antonadonin/Robotics/lab5/ex05/build/movement/build install --record /home/antonadonin/Robotics/lab5/ex05/build/movement/install.log --single-version-externally-managed install_data

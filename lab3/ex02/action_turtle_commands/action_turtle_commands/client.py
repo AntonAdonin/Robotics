@@ -2,7 +2,7 @@ import rclpy
 from rclpy.action import ActionClient
 from rclpy.node import Node
 from actions.action import MessageTurtleCommands
-from action_msgs.msg import GoalStatus
+
 
 class TurtleActionClient(Node):
 

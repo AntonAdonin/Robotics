@@ -6,7 +6,7 @@ import math
 
 from tf2_ros import TransformException
 
-class Turtle2TFListener(Node):
+class Turtle2Listener(Node):
     def __init__(self):
         super().__init__('turtle2_tf2_listener')
         self.tf_buffer = tf2_ros.Buffer()
@@ -32,7 +32,7 @@ class Turtle2TFListener(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = Turtle2TFListener()
+    node = Turtle2Listener()
     rclpy.spin(node)
     rclpy.shutdown()
 
