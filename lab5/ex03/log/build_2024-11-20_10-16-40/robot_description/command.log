@@ -1,1 +1,0 @@
-Invoking command in '/home/antonadonin/Robotics/lab5/ex03/build/robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/antonadonin/Robotics/lab5/ex03/robot_description -DCMAKE_INSTALL_PREFIX=/home/antonadonin/Robotics/lab5/ex03/install/robot_description
