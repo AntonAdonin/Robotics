@@ -4,7 +4,7 @@
   <name>movement</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="s.mendrul2010@gmail.com">chukotskiy_shaman</maintainer>
+  <maintainer email="adonin-2004@mail.ru">antonadonin</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>

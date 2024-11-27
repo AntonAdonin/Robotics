@@ -1,2 +1,6 @@
 .idea
 venv
+build/
+install/
+log/
+__pycache__
